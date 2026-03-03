@@ -1,19 +1,23 @@
-esercizio di oggi: Primi passi con use state
-repo: react-use-state
+# Primi passi con `useState` 🚅
 
-Esercizio
-Oggi proviamo a usare lo stato di React! Ennamo 🚅 🚅 🚅 
+**Repo:** `react-use-state`
+
+## Esercizio
+
+Oggi proviamo a usare lo stato di React!
 
 Dato un array di oggetti contenente i linguaggi del web e le loro descrizioni:
 
-Crea una serie di card che mostrano al loro interno un bottone. Il testo del bottone, corrisponde al nome del linguaggio.
-Se il bottone viene cliccato, cambia colore e la descrizione diventa visibile all’interno della card.
+- Crea una serie di **card**, ognuna con un bottone il cui testo corrisponde al nome del linguaggio
+- Al click del bottone, il bottone **cambia colore** e la descrizione diventa **visibile** nella card
 
-Bonus
-Crea una lista di bottoni, uno per linguaggio.
-Sotto i bottoni, inserisci una singola card. In partenza, questa card mostra il  titolo e la descrizione del primo linguaggio nell’array.
-Fare in modo che, cliccando uno dei bottoni, la card cambi contenuto e visualizzi il linguaggio corrispondente e la relativa descrizione
+## Bonus
 
-Super Bonus
-Scomporre la card dei dettagli in un componente a parte che mantenga le sue funzionalità
-Scomporre i buttons in componenti a parte che mantengono tutte le funzionaliltà
+- Crea una lista di bottoni, uno per linguaggio
+- Sotto i bottoni, inserisci una **singola card** che in partenza mostra il titolo e la descrizione del primo linguaggio nell'array
+- Cliccando un bottone, la card aggiorna il contenuto mostrando il linguaggio corrispondente
+
+## Super Bonus
+
+- Scomponi la card dei dettagli in un **componente separato** che mantenga le sue funzionalità
+- Scomponi i bottoni in **componenti separati** che mantengano tutte le funzionalità

@@ -1,2 +1,4 @@
 
 .github/agents
+node_modules
+screenshot
