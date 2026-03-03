@@ -9,7 +9,7 @@ function App() {
   const [bonusIsActive, setBonusIsActive] = useState(languages[0].id);
   const activeLanguage = languages.find((language) => language.id === bonusIsActive);
   return (
-    <>
+    <div className="container-fluid">
       <h1>Learn Web development</h1>
 
       <div className="container">
@@ -40,7 +40,7 @@ function App() {
         </div>
         <BonusCard activeLanguage={activeLanguage} />
       </div>
-    </>
+    </div>
   )
 }
 
